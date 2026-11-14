@@ -21,7 +21,7 @@ You need DDEV v1.24.4 or later and a Docker-compatible runtime (Docker Desktop, 
 ```bash
 git clone https://github.com/debabratakarfa/wcblr-college-connect-2026.git
 cd wcblr-college-connect-2026
-./scripts/setup.sh
+bash scripts/setup.sh
 ```
 
 The script builds a WordPress site in `site/` at https://wcblr-demo.ddev.site with:
@@ -42,7 +42,7 @@ Log in at https://wcblr-demo.ddev.site/wp-admin/ with `admin` / `admin`. These c
 5. [Measure with XHProf and XHGui](docs/05-profiling-xhgui.md)
 6. [Troubleshooting and FAQ](docs/06-troubleshooting-faq.md)
 
-When you are done, `./scripts/reset.sh` deletes the site and its database.
+When you are done, `bash scripts/reset.sh` deletes the site and its database.
 
 ## Repository layout
 
