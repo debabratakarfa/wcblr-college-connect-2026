@@ -44,12 +44,18 @@ function wcblr_demo_append_cta( $content ) {
  * The loop runs one uncached query per iteration: the classic N+1 pattern
  * you will spot in XHGui as a high call count on WP_Query and wpdb::query.
  *
+ * 1000 loops is about 2,000 queries and ~0.8s on a small DDEV site, enough
+ * to stand out against WordPress's own ~0.2s baseline. Override with
+ * define( 'WCBLR_DEMO_LOOPS', 500 ); in wp-config.php if the room's laptop is slower.
+ *
  * @return string
  */
 function wcblr_demo_build_cta() {
 	$titles = array();
 
-	for ( $i = 0; $i < 200; $i++ ) {
+	$loops = defined( 'WCBLR_DEMO_LOOPS' ) ? (int) WCBLR_DEMO_LOOPS : 1000;
+
+	for ( $i = 0; $i < $loops; $i++ ) {
 		$query = new WP_Query(
 			array(
 				'post_type'      => 'post',
