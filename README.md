@@ -1,6 +1,6 @@
 # WordCamp Bengaluru 2026 College Connect: CTA, Forms and Debugging
 
-Companion repo for the 30-minute interaction segment (minutes 50 to 80) led by [Debabrata Karfa](https://bengaluru.wordcamp.org/2026/organizer/debabrata-karfa/).
+Companion repo for the interaction segment led by [Debabrata Karfa](https://bengaluru.wordcamp.org/2026/organizer/debabrata-karfa/).
 
 You will build a call-to-action button, wire a form that really delivers, then debug and profile the site the way professionals do: **reproduce, isolate, inspect, log, measure.**
 
@@ -8,11 +8,11 @@ Everything runs locally on [DDEV](https://ddev.com/). Nothing here should ever t
 
 ## Agenda
 
-| Minutes | Segment | Guide |
-| --- | --- | --- |
-| 50 to 58 | Call to action | [02-call-to-action.md](docs/02-call-to-action.md) |
-| 58 to 68 | Form | [03-form.md](docs/03-form.md) |
-| 68 to 80 | Setup and debugging | [04-debugging.md](docs/04-debugging.md), [05-profiling-xhgui.md](docs/05-profiling-xhgui.md) |
+| Segment | Guide |
+| --- | --- |
+| Call to action | [02-call-to-action.md](docs/02-call-to-action.md) |
+| Form | [03-form.md](docs/03-form.md) |
+| Setup and debugging | [04-debugging.md](docs/04-debugging.md), [05-profiling-xhgui.md](docs/05-profiling-xhgui.md) |
 
 ## Quick start
 
