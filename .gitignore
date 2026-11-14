@@ -1,0 +1,9 @@
+# Local demo site built by scripts/setup.sh
+/site/
+
+# OS and editor files
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
